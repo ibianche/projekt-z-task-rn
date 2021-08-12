@@ -8,7 +8,7 @@
     background-image: url('https://images.pexels.com/photos/8960464/pexels-photo-8960464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; 
+    
 }  
 .splash-inner {
     position: absolute;
@@ -34,8 +34,9 @@
 	text-align: center;
 
 }
-.secvice-subtitle {
+.service-subtitle {
 	text-align: center;
+	margin-bottom: 50px;
 }
 .services {
 	margin: 100px 0px 100px;
@@ -50,4 +51,36 @@
 	text-align: center;
 	line-height: 0.3;
 }
+
+footer {
+    text-align: center;
+   
+}
+footer ul {
+    margin: auto;
+    list-style-type: none;
+    display: inline-flex;
+ }
+footer li {
+    font-size: 20px;
+    padding: 0 5px;
+    margin: auto;
+ }
+ .fab {
+ background-color: black;
+ height: 30px;
+ width: 30px;
+ font-size: 15px;
+ line-height: 30px !important;
+ color: white;
+ border-radius: 50%;
+ }
+.copyright {
+	font-size: 10px;
+	justify content: flex-start;
+}
+
+
+
+
 
