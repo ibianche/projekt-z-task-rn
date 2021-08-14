@@ -2,6 +2,9 @@
         box-sizing: border-box;
 }
 
+$font-one: 'Montserrat', sans-serif;
+$font-two: 'WindSong', cursive;
+
 .navigation {
     background-image: url('https://images.pexels.com/photos/8960464/pexels-photo-8960464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     height: 100vh;
@@ -10,15 +13,12 @@
     background-size: cover;
     
 }
-
-
 .navigation li {
     display: inline;
     list-style-type: none;
     padding: 0 15px;
     margin: 0;
 }
-
 .splash-inner {
     position: absolute;
     width: 100%;
@@ -28,15 +28,17 @@
     }
 .page-title {
 	text-align: center;
- 	font-size: 40px;
+ 	font-size: 50px;
     margin: 48px 0 0 0;
+    font-family: $font-one;
     }
 .page-subtitle {
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     margin: 18px 0 0 0;
+    padding-top: 25px;
+    font-family: $font-two;
     }
-
 .btn {
     display: inline-block;
     margin: 20px;
@@ -51,20 +53,22 @@
     background: yellow;
     border: none;
     background-size: 100%;
-    
-}
-
+    }
 .service-title {
 	text-align: center;
-
-}
+    font-family: $font-one;
+    font-size: 40px;
+    }
 .service-subtitle {
 	text-align: center;
 	margin-bottom: 50px;
-}
+    font-family: $font-two;
+    font-size: 20px;
+    margin-top: 5px;
+    }
 .services {
 	margin: 100px 0px 100px;
-}
+    }
 
 .card-image img {
   width: 100%;
@@ -74,49 +78,64 @@
 .portfolio .card-body {
 	text-align: center;
 	line-height: 0.3;
-}
+    }
 
 footer {
     text-align: center;
     margin-top: 40px;
-   
-}
+    }
 footer ul {
     margin: auto;
     list-style-type: none;
     display: inline-flex;
- }
+    }
 footer li {
     font-size: 20px;
     padding: 0 5px;
     margin: auto;
- }
+    }
  
  .fab {
- background-color: black;
- height: 30px;
- width: 30px;
- font-size: 15px;
- line-height: 30px !important;
- color: white;
- border-radius: 50%; 
- }
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    line-height: 30px !important;
+    color: white;
+    border-radius: 50%;
+    }
 .card-body {
     border: solid;
     border-color: white;
-}
+    }
 .portfolio-card {
     margin-top: 40px;
-}
+    }
 .card {
     background: white;
-}
+    }
 
 .portfolio {
     background: #82ccdd;
-}
+    }
 
-
+.first-element {
+    margin-left: 160px;
+    text-align: center;
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    line-height: 65px !important;
+    color: white;
+    border-radius: 50%; 
+    }
+.card-body-first h3 {
+    text-align: center;
+    }
+.card-body p {
+    font-family: $font-two;
+    }
 
 
 
