@@ -5,6 +5,11 @@
 $font-one: 'Montserrat', sans-serif;
 $font-two: 'WindSong', cursive;
 
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
 .menu {
     display: flex;
     justify-content: space-between;
@@ -156,6 +161,21 @@ footer li {
 .card-body p {
     font-family: $font-two;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
