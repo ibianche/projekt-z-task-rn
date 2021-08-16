@@ -5,6 +5,9 @@
 $font-one: 'Montserrat', sans-serif;
 $font-two: 'WindSong', cursive;
 
+body {
+    margin: 0;
+}
 
 .navigation ul li a {
     text-decoration: none;
@@ -107,7 +110,7 @@ $font-two: 'WindSong', cursive;
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    padding: 20px;
     }
 footer ul {
     margin: auto;
@@ -144,8 +147,11 @@ footer li {
     background: #82ccdd;
     }
 
+.services-card {
+    justify-content: center;
+}
+
 .first-element {
-    margin-left: 160px;
     text-align: center;
     background-color: #fdcb6e;
     height: 60px;
@@ -161,6 +167,14 @@ footer li {
 .card-body p {
     font-family: $font-two;
     }
+
+@media (max-width: 768px) {
+
+    .navigation li {
+        display: block;
+    }
+
+}
 
 
 
